@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "b6b73e87-d97c-452c-bdd6-e5c43a28e48f",
+		"name": "Edenrobe.com Token and SKU",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24906714"
+	},
+	"item": [
+		{
+			"name": "Request to Get Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "https://edenrobe.com/",
+					"protocol": "https",
+					"host": [
+						"edenrobe",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET SKU",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
